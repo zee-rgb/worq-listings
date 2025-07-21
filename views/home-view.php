@@ -1,26 +1,22 @@
-<?php
-loadPartial("head"); //NOSONAR S2003
-?>
+<?= loadPartial("head") ?>
+
 <!-- Nav -->
-<?php loadPartial("navbar"); //NOSONAR S2003
-?>
+<?= loadPartial("navbar") ?>
 
 <!-- Showcase -->
-<?php loadPartial("showcase-search"); //NOSONAR S2003
-?>
+<?= loadPartial("showcase-search") ?>
 
 <!-- Top Banner -->
-<?php loadPartial("top-banner"); //NOSONAR S2003
-?>
+<?= loadPartial("top-banner") ?>
+
 
 <!-- Job Listings -->
-<?php loadPartial("job-listings"); //NOSONAR S2003
-?>
+<?= loadPartial("job-listings") ?>
+
 
 <!-- Bottom Banner -->
-<?php loadPartial("bottom-banner"); //NOSONAR S2003
-?>
+<?= loadPartial("bottom-banner") ?>
+
 
 <!-- Footer -->
-<?php loadPartial("footer"); //NOSONAR S2003
-?>
+<?= loadPartial("footer") ?>

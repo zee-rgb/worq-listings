@@ -6,8 +6,8 @@
                 Post your job listing now and find the perfect candidate.
             </p>
         </div>
-        <a href="post-job.html"
-            class="px-4 py-2 text-black transition duration-300 bg-yellow-500 rounded hover:bg-yellow-600 hover:shadow-md">
+        <a href="listings/create"
+            class="px-4 py-2 text-black transition duration-300 bg-yellow-500 rounded  hover:bg-yellow-600 hover:shadow-md">
             <i class="fa fa-edit"></i> Post a Job
         </a>
     </div>

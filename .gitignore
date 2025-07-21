@@ -20,6 +20,9 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# Apache configuration
+.htaccess
+
 # OS generated files
 .DS_Store
 .DS_Store?
@@ -105,3 +108,31 @@ dist/
 # Temporary folders
 tmp/
 temp/
+
+# Additional PHP-specific files
+.htpasswd
+/vendor/autoload.php
+
+# Session files
+/sessions/
+sess_*
+
+# Upload directories (if you add file uploads later)
+/uploads/
+/public/uploads/
+
+# Local development files
+*.local
+local.php
+config.local.php
+
+# Error logs
+error_log
+error.log
+access.log
+
+# PHP Storm metadata
+.phpstorm.meta.php
+
+# VS Code workspace files
+*.code-workspace

@@ -21,7 +21,7 @@ function basePath($path = "")
 
 function loadView($name)
 {
-    $viewPath = basePath("views/{$name}-view.php");
+    $viewPath = basePath("views/{$name}.php");
 
     if (file_exists($viewPath)) {
         require $viewPath; // NOSONAR S2003
