@@ -66,3 +66,22 @@ function inspectAndDie($value)
     echo "</pre>";
     die("Inspection complete.");
 }
+
+
+/**
+ * Inspect value(s)
+ *
+ * @param mixed $value
+ * @return void
+ */
+
+function inspect($value)
+{
+    echo "<pre>";
+
+    var_dump($value);
+    echo "<br>";
+    print_r($value);
+
+    echo "</pre>";
+}
