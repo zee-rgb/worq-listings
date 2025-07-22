@@ -136,3 +136,7 @@ access.log
 
 # VS Code workspace files
 *.code-workspace
+
+# SQL data files
+/sql-data/
+*.sql
