@@ -19,11 +19,12 @@ function basePath($path = "")
  * @return void
  */
 
-function loadView($name)
+function loadView($name, $data = [])
 {
     $viewPath = basePath("views/{$name}.php");
 
     if (file_exists($viewPath)) {
+        extract($data);
         require $viewPath; // NOSONAR S2003
     } else {
         echo "View file not found: {$viewPath}";
