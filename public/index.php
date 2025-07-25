@@ -1,7 +1,7 @@
 <?php
 require "../helpers.php"; // NOSONAR S2003
-require basePath("Database.php"); // NOSONAR S2003
-require basePath("Router.php"); // NOSONAR S2003
+require basePath("Framework/Database.php"); // NOSONAR S2003
+require basePath("Framework/Router.php"); // NOSONAR S2003
 
 // Initialize the router
 $router = new Router();

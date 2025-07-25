@@ -21,7 +21,7 @@ function basePath($path = "")
 
 function loadView($name, $data = [])
 {
-    $viewPath = basePath("views/{$name}.php");
+    $viewPath = basePath("App/views/{$name}.php");
 
     if (file_exists($viewPath)) {
         extract($data);
@@ -40,7 +40,7 @@ function loadView($name, $data = [])
 
 function loadPartial($name)
 {
-    $partialPath = basePath("views/partials/{$name}.php");
+    $partialPath = basePath("App/views/partials/{$name}.php");
 
     if (file_exists($partialPath)) {
         require $partialPath; // NOSONAR S2003
